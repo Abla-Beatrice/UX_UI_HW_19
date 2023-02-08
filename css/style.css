@@ -56,20 +56,22 @@ button {
     border-radius: 6px;
 }
 .footer {
-    background-color: #373738;
-    padding: 10px 40px;
-    font-size: 20px;
-    line-height: 2 rem;
-    color: white;
+  padding: 10px 40px;
+  background-color: #E8E4D7;
+  align-items: center;
+  font-size: 14px;
+  color: #8C503A;
 }
-footer p{
-  font-size: 12px;
+footer a {
+  color: #0b0b0a;
+  margin-left: 40px;
+  text-decoration: none;
 }
-footer a:hover{
-      color:#EE4824;
-}   
+footer a:hover {
+      color:#D91E41;
+}      
 footer a:active {
-      color:#EE4824;  
+      color:#D91E41;
 }
 
 .heading {

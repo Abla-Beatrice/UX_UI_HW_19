@@ -2,84 +2,74 @@ body {
     margin:0;
     font-family: roboto;
     color: #212429
-}
-.grid{
+  }
+  .grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     row-gap: 0;
-}
+  }
   header {
     padding: 10px 40px;
     background: #E8E4D7;
     align-items: center;
-}
+  }
   header h1 {
     grid-column: span 6;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -.03rem;
-    color: #BF6415
-}
+  }
   header nav{
     grid-column: span 6;
     justify-self: end;
-}
+  }
   header nav a{
-    color: #BF6415;
+    color: #333;
     margin-left: 40px;
     text-decoration: none;
-}
+  }
+      
+  /* Navigation */
   nav a:hover{
     color:#D91E41;
-}
+    }
   nav a:active {
     color: #212429;
-}
-main {
-    background: #D9CCC1;
-    padding: 0px 150px 100px   
-}
-.intro {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-.para1 p{
-    font-weight:400;
-    color:rgb(37, 37, 37);
-    font-size: 14px;
-    line-height: 1.4rem;
-}
-
-.cntact {
-    background-color: #0F0817;
-    color: white;
-    padding: 20px 40px;
-    border-radius: 50px;
-    border: none;
-}
-
-.cntact:hover {
-    background-color:#8C503A
-}
-
-.cntact:active {
- background-color: #212429;
-}
-.footer {
+     }
+  .heroImg {
+    background-color: #D91E41;
+    padding: 100px 15px;
+  }
+  .content {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 100px;
+      background-color: #FFFFFF;
+      text-align: center;
+  }
+  button {
+      padding: 15px;
+      background-color: #0c0c0c;
+      color: rgb(245, 236, 236);
+      font-size: 15px;
+      border-radius: 6px;
+  }
+  .footer {
     padding: 10px 40px;
     background-color: #E8E4D7;
     align-items: center;
     font-size: 14px;
-    color: rgb(20, 18, 18);
-}
-footer a {
-    color: #BF6415;
+    color: #8C503A;
+  }
+  footer a {
+    color: #0b0b0a;
     margin-left: 40px;
     text-decoration: none;
-}
-footer a:hover {
-    color:#D91E41;
-}      
-footer a:active {
-   color:#D91E41;
-}
+  }
+  footer a:hover {
+        color:#D91E41;
+  }      
+  footer a:active {
+        color:#D91E41;
+  }
+  
