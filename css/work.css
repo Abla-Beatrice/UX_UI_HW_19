@@ -11,11 +11,11 @@ body {
   }
   header {
     padding: 10px 40px;
-    background-color:#8C504A;
+    background-color: #A66D58;
     align-items: center;
   }
   header h1 {
-    color:#F2AD94;
+    color: #F2EFC4;
     grid-column: span 6;
     font-size: 20px;
     font-weight: 600;
@@ -26,7 +26,7 @@ body {
     justify-self: end;
   }
   header nav a{
-    color:#f3edeb;
+    color: #F2EFC4;
     margin-left: 40px;
     text-decoration: none;
   }
@@ -40,9 +40,23 @@ nav a:active {
 }
 
 main {
-    background: #E0D7C5;
-    padding: 0px 150px 100px    
-  }
+  margin: 0;
+  padding: 5px;
+  background-color: #A66D58
+}
+main > h3, p, .skills {
+  margin: 10px;
+  padding: 5px;
+}
+
+.skills {
+  background: white;
+}
+
+.skills > h3, p {
+  margin: 4px;
+  font-size: 90%;
+}
 
 .whitepanel {
   text-align:center;
@@ -54,30 +68,21 @@ main {
       grid-template-columns: repeat(1, 1fr);
     
   }
-.box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1300px;
-    padding-top: 120px;
-    align-items: top;
-}
 
-.buttonbox {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 100px;
-    padding-top: 60px;
-  
-}
-.item1 h1{
+.item1 h2{
     font-weight: 500;
     letter-spacing: -.03rem;
+    text-align: center;
+    
 }
 .item2 p{
     font-weight: 400;
-    padding-left: 40px;
-    color:#333;
+    padding: 1px;
     line-height: 1.5;
+    color:#F2EFC4;
+    font-size: 20px;
+    font-style:normal;
+    text-align: center;
 }
 .item3 h1{
   font-weight: 400;
@@ -151,13 +156,13 @@ background-color: #212429;
 }
 .footer {
   padding: 10px 40px;
-  background-color:#8C504A;
+  background-color:#A66D58;
   align-items: center;
   font-size: 14px;
   
 }
 footer a {
-  color: #eeeee8;
+  color: #F2EFC4;
   margin-left: 40px;
   text-decoration: none;
 }
