@@ -1,89 +1,10 @@
-
 body {
-    margin:0;
-    font-family: roboto;
-    color: #212429
-  }
-  .grid{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    row-gap: 0;
-  }
-  header {
-    padding: 10px 40px;
-    background-color:#8C504A;
-    align-items: center;
-  }
-  header h1 {
-    color:#F2AD94;
-    grid-column: span 6;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: -.03rem;
-  }
-  header nav{
-    grid-column: span 6;
-    justify-self: end;
-  }
-  header nav a{
-    color:#f3edeb;
-    margin-left: 40px;
-    text-decoration: none;
-  }
-      
-  /* Navigation */
-nav a:hover{
-    color:#F2AD94;
-}
-nav a:active {
-    color: #212429;
+  margin:0;
+  font-family: roboto;
+  color: #212429
 }
 
-main {
-    background: #efe0d2;
-    height: 90%;
-    padding: 0px 150px 100px   
-}
-.intro {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.item1 h2{
-    font-weight: 500;
-    color: #8C504A;
-    letter-spacing: -.03rem;
-    padding-bottom: 30px;  
-}
-.item2 p{
-    font-weight:400;
-    color:rgb(37, 37, 37);
-    font-size: 14px;
-    line-height: 1.4rem;
-}
-
-.cntact {
-    background-color: #D98977;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    border: none;
-}
-
-.cntact:hover {
-    background-color:#8C503A
-}
-
-.cntact:active {
- background-color: #212429;
-}
-
-.containerHeight {
-  min-height: 428px;
-  background-color: black;
-}
 /*The Contact Section*/
-
 .w3-bar{
   width:100%;
   overflow:hidden
