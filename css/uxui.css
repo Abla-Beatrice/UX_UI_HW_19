@@ -1,7 +1,7 @@
 
 body {
     margin:0;
-    font-family: roboto;
+    font-family: 'Karma';font-size: 22px;
     color: #212429
   }
   .grid{
@@ -24,11 +24,15 @@ body {
   header nav{
     grid-column: span 6;
     justify-self: end;
+    float: left;
+    
   }
   header nav a{
     color: #F2EFC4;
     margin-left: 40px;
     text-decoration: none;
+    
+    
   }
       
   /* Navigation */
@@ -38,24 +42,44 @@ nav a:hover{
 nav a:active {
     color: #212429;
 }
-
-main {
-  margin: 0;
-  padding: 5px;
-  background-color: #A66D58
-}
-main > h3, p, .skills {
-  margin: 10px;
-  padding: 5px;
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.skills {
-  background: white;
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: #F2AD94;;
 }
 
-.skills > h3, p {
-  margin: 4px;
-  font-size: 90%;
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 .whitepanel {
@@ -79,7 +103,7 @@ main > h3, p, .skills {
     font-weight: 400;
     padding: 1px;
     line-height: 1.5;
-    color:#F2EFC4;
+    color:#20201d;
     font-size: 20px;
     font-style:normal;
     text-align: center;
@@ -114,15 +138,7 @@ main > h3, p, .skills {
       padding: 100px;
       background-color: #FFFFFF;
       text-align: center;
-  }
-  button {
-      padding: 15px;
-      background-color: #0c0c0c;
-      color: rgb(245, 236, 236);
-      font-size: 15px;
-      border-radius: 6px;
 }
-
 .imgProfit {
     grid-area: imgProfit;
     display: grid;
@@ -139,21 +155,6 @@ main > h3, p, .skills {
     padding-top: 1px;
     grid-column: 1 / span 3;       
   }
-.cntact {
-  background-color: #0F0817;
-  color: white;
-  padding: 20px 40px;
-  border-radius: 50px;
-  border: none;
-}
-
-.cntact:hover {
-  background-color:#8C503A
-}
-
-.cntact:active {
-background-color: #212429;
-}
 .footer {
   padding: 10px 40px;
   background-color:#A66D58;
