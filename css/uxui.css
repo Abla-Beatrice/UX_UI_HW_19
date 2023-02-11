@@ -8,12 +8,12 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     row-gap: 0;
-  }
+}
   header {
     padding: 10px 40px;
     background-color: #A66D58;
     align-items: center;
-  }
+}
   header h1 {
     color: #F2EFC4;
     grid-column: span 6;
